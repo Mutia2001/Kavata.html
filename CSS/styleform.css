@@ -1,0 +1,90 @@
+*,*:after{
+    box-sizing: border-box;
+}
+Html{
+    overflow-y: scroll;
+}
+Body{
+    background-color: #00ffcc;
+    font-family: "Berlin Sans FB";
+}
+a{
+    text-decoration: none;
+    color: aqua;
+    transition: 5s ease;
+}
+.form{
+    background: aqua;
+    padding: 40px;
+    max-width: 600px;
+    margin: 40px auto;
+    border-radius: 4px;
+}
+.tab-group{
+    list-style-type: none;
+    padding: 0;
+    margin: 0 0 40px 0;
+    border-radius: 4px;
+}
+li a{
+    display: black;
+    text-decoration: none;
+    padding: 11px;
+    background: blue;
+    color: darkmagenta;
+    font-size: 20px;
+    float: left;
+    text-align: center;
+    cursor: pointer;
+    transition: 5s ease;
+}
+.tab-content>div.last-child{
+    display: none;
+}
+.hi{
+    text-align: center;
+    color: black;
+    font-weight: 300;
+    margin: 0 0 40px;
+}
+.label{
+    position: absolute;
+    transform: translate(6px);
+    left: 13px;
+    color: black;
+}
+.input{
+    font-size: 22px;
+    display: black;
+    width: 100%;
+    height: 100%;
+    padding: 5px 10px;
+    background: none;
+    background-image: none;
+    border: 1px solid gold;
+    color: aqua;
+    transition: border-color .25px ease,box-shad0w;
+}
+.field-wrap{
+    position: relative;
+    margin-bottom: 40px;}
+>div{
+    float: left;
+    width: 50%;
+}
+.buton{
+    border: 0;
+    outline: none;
+    border-radius: 0;
+    padding: 15px;
+    font-size: 18px;
+}
+.button-block{
+    display: black;
+    width: 100%;
+}
+.forgot{
+    margin-top: -20px;
+    text-align: center;
+}
+

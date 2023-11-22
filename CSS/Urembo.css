@@ -1,0 +1,26 @@
+td,th{
+    border: black 2px solid;
+    padding: 10px;
+}
+table{
+    width: 100%;
+    border-collapse: collapse}
+thead{
+    font-family: "Baskerville Old Face";
+    font-size: 28px;
+    color: darkmagenta;
+}
+H2{
+    text-align: center;
+    font-size: 30;
+    font-family: "Berlin Sans FB";
+    color: blue;
+}
+tr:nth-child(even){
+    background-color: aqua;
+}
+
+
+
+
+
